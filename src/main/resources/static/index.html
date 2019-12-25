@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <form class="form-login">
+        <label>NickName</label>
+        <input placeholder="your nickname here" />
+        <button type="submit">Enter</button>
+    </form>
+
+    <div class="message-list">
+        <h1>Messages</h1>
+        <form class="form-message">
+            <input placeholder="your message here" />
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
